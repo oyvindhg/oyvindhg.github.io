@@ -1,4 +1,4 @@
-# React app on Github pages
+# React app on Github Pages
 
 ## Requirements
 
@@ -27,12 +27,9 @@ Launches the test runner in the interactive watch mode. Learn more about running
 ## Deployment
 
 1) Make sure the publishing source is set to the `gh-pages` branch as described [here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-
 2) Edit `package.json` to set the correct project `ǹame` and `homepage`
-
-#### Custom domain
-
-To use a custom domain, fill in the `cusom domain` field under the project setting in Github, and create an `A` record at the DNS provider.
+3) Custom domain? \
+Fill in the `cusom domain` field under the project setting in Github, and point to Github Pages from the domain at the DNS provider.
 More details [here](https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
 
 #### `yarn build`
