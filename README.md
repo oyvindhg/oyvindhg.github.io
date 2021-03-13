@@ -26,7 +26,7 @@ Launches the test runner in the interactive watch mode. Learn more about running
 
 ## Deployment
 
-1) Make sure the publishing source is set to the `gh-pages` branch as described [here]https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+1) Make sure the publishing source is set to the `gh-pages` branch as described [here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
 2) Edit `package.json` to set the correct project `ǹame` and `homepage`
 
