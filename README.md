@@ -33,7 +33,6 @@ Launches the test runner in the interactive watch mode. Learn more about running
 #### Custom domain
 
 To use a custom domain, fill in the `cusom domain` field under the project setting in Github, and create an `A` record at the DNS provider.
-
 More details [here](https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
 
 #### `yarn build`
