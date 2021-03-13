@@ -30,7 +30,7 @@ Launches the test runner in the interactive watch mode. Learn more about running
 
 2) Edit `package.json` to set the correct project `ǹame` and `homepage`
 
-#### Custom wdomain
+#### Custom domain
 
 To use a custom domain, fill in the `cusom domain` field under the project setting in Github, and create an `A` record at the DNS provider.
 
