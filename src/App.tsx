@@ -2,6 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import HomePage from './HomePage';
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-MEGMW6SETX";
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (
