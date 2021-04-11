@@ -1,15 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import HomePage from './HomePage';
 import ReactGA from 'react-ga';
+import { useLocation, } from 'react-router-dom';
 
 const TRACKING_ID = "G-MEGMW6SETX";
+
 ReactGA.initialize(TRACKING_ID);
+console.log("Here");
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.pageview(location.pathname + location.search);
+  }, [location]);
+
   return (
-    <HomePage></HomePage>
+    <HomePage />
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
