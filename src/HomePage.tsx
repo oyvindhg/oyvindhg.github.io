@@ -10,8 +10,11 @@ function HomePage() {
             <div>
                 Software developer
             </div>
-            <a className="LinkedIn-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+            <a className="LinkedIn-link" href="https://www.linkedin.com/in/oyvindhg/" target="_blank" rel="noopener noreferrer">
                 LinkedIn
+            </a>
+            <a className="GitHub-link" href="https://github.com/oyvindhg" target="_blank" rel="noopener noreferrer">
+                GitHub
             </a>
         </div>
     );
