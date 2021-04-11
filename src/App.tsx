@@ -5,10 +5,9 @@ import HomePage from './HomePage';
 import ReactGA from 'react-ga';
 import { useLocation, } from 'react-router-dom';
 
-const TRACKING_ID = "G-MEGMW6SETX";
+const TRACKING_ID = "UA-194256372-1";
 
 ReactGA.initialize(TRACKING_ID);
-console.log("Here");
 
 function App() {
   const location = useLocation();
