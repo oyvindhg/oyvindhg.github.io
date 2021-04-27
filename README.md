@@ -1,6 +1,5 @@
 # React app on Github Pages
 
-
 ## Requirements
 
 - Typescript (3.8.3 +)
