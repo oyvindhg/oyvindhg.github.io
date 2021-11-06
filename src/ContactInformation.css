@@ -1,0 +1,18 @@
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    font-family: 'Open Sans';
+    font-style: normal;
+  }
+
+.contact-item {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.contact-item:hover {
+    cursor: pointer;
+    color: #B15252;
+}

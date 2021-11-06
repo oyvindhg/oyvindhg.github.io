@@ -1,0 +1,23 @@
+.introduction {
+    padding-top: 325px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+  }
+
+.text-small {
+    font-size: 40px;
+  }
+
+.text-large {
+    font-size: 60px;
+  }
+
+.text-large:hover {
+    color: #B15252;
+}
+
+.space {
+    margin-top: 79px;
+  }
+
