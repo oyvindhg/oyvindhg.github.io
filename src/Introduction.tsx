@@ -1,9 +1,9 @@
 import React from 'react';
-import './Presentation.css';
+import './Introduction.css';
 
-function Presentation() {
+function Introduction() {
     return (
-        <div className="presentation">
+        <div className="introduction">
             <TextEntry size="small">hi, my name is</TextEntry>
             <TextEntry size="large">Øyvind Harding Gulbrandsen</TextEntry>
             <div className="space"></div>
@@ -34,4 +34,4 @@ function TextEntry(props: TextEntryProps) {
     }
 }
 
-export default Presentation;
+export default Introduction;

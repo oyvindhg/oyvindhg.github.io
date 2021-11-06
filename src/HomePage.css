@@ -1,13 +1,7 @@
-.HomePage {
+.home-page {
     background-color: #1B2539;
+    padding-left: 125px;
     min-height: 100vh;
+    min-width: 100vh;
+    color: #9FB0CF;
   }
-  
-  .LinkedIn-link {
-    color: #61dafb;
-  }
-
-  .GitHub-link {
-    color: #61dafb;
-  }
-  
