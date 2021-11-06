@@ -1,15 +1,11 @@
 import React from 'react';
 import './HomePage.css';
+import Presentation from './Presentation'
 
 function HomePage() {
     return (
         <div className="HomePage">
-            <div>
-                Øyvind Harding Gulbrandsen
-            </div>
-            <div>
-                Software developer
-            </div>
+            <Presentation />
             <a className="LinkedIn-link" href="https://www.linkedin.com/in/oyvindhg/" target="_blank" rel="noopener noreferrer">
                 LinkedIn
             </a>
