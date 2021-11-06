@@ -6,8 +6,10 @@ import ContactInformation from './ContactInformation';
 function HomePage() {
     return (
         <div className="home-page">
-            <Introduction />
-            <ContactInformation />
+            <div className="home-page-content">
+                <Introduction />
+                <ContactInformation />
+            </div>
         </div>
     );
 }
