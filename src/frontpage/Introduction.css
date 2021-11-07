@@ -1,4 +1,6 @@
 .introduction {
+    display: flex;
+    flex-direction: column;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 300;

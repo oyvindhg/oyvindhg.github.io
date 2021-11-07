@@ -1,7 +1,7 @@
 .contact-information {
     display: flex;
     flex-direction: column;
-    margin-top: 96px;
+    margin-top: 130px;
     font-family: 'Open Sans';
     font-style: normal;
   }
@@ -15,4 +15,8 @@
 .contact-item:hover {
     cursor: pointer;
     color: #B15252;
+}
+
+.contact-item:not(:first-child) {
+    margin-top: 14px;
 }

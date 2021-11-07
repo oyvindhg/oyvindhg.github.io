@@ -19,19 +19,20 @@ type TextEntryProps = {
 }
 
 function TextEntry(props: TextEntryProps) {
-    if (props.size === "small") {
-        return (
-            <div className="text-small">
-                {props.children}
-            </div>
-        )
-    } else {
-        return (
-            <div className="text-large">
-                {props.children}
-            </div>
-        )
-    }
+    return (
+        <div>
+            {props.size === "small" &&
+                <span className="text-small">
+                    {props.children}
+                </span>
+            }
+            {props.size === "large" &&
+                <span className="text-large">
+                    {props.children}
+                </span>
+            }
+        </div>
+    )
 }
 
 export default Introduction;
