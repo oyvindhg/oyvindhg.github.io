@@ -1,6 +1,5 @@
-import React from 'react';
-import linkedinLogo from './icons/linkedin.svg';
-import githubLogo from './icons/github.svg';
+import linkedinLogo from './../icons/linkedin.svg';
+import githubLogo from './../icons/github.svg';
 import './ContactInformation.css';
 
 function ContactInformation() {

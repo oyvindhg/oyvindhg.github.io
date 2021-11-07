@@ -1,7 +1,5 @@
-import React, { useEffect } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import HomePage from './HomePage';
+import { useEffect } from 'react';
+import HomePage from './frontpage/HomePage';
 import ReactGA from 'react-ga';
 import { useLocation, } from 'react-router-dom';
 
