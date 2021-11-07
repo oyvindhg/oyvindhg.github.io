@@ -8,7 +8,10 @@ function Frontpage() {
         <div className="frontpage">
             <div className="frontpage-contents">
                 <Introduction />
-                <ContactInformation />
+                <div className="bottom">
+                    <ContactInformation />
+                    <div></div>
+                </div>
                 <Credits />
             </div>
         </div>
