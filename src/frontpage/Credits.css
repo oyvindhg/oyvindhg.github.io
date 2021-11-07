@@ -1,0 +1,10 @@
+.credits {
+    text-align: right;
+    margin-top: 37px;
+    margin-right: 29px;
+  }
+
+.credit-opener:hover {
+    cursor: pointer;
+    color: #B15252;
+}

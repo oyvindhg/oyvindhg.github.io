@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import HomePage from './frontpage/HomePage';
+import Frontpage from './frontpage/Frontpage';
 import ReactGA from 'react-ga';
 import { useLocation, } from 'react-router-dom';
 
@@ -15,7 +15,7 @@ function App() {
   }, [location]);
 
   return (
-    <HomePage />
+    <Frontpage />
   );
 }
 

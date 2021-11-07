@@ -1,17 +1,18 @@
-import React from 'react';
-import './HomePage.css';
+import './Frontpage.css';
 import Introduction from './Introduction'
 import ContactInformation from './ContactInformation';
+import Credits from './Credits';
 
-function HomePage() {
+function Frontpage() {
     return (
-        <div className="home-page">
-            <div className="home-page-content">
+        <div className="frontpage">
+            <div className="frontpage-contents">
                 <Introduction />
                 <ContactInformation />
+                <Credits />
             </div>
         </div>
     );
 }
 
-export default HomePage;
+export default Frontpage;
